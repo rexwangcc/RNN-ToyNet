@@ -4,7 +4,11 @@ RNN-ToyNet
 This ToyNet is a really simple implementation of Recurrent Neural Network, it is so simple that the only extra dependency of it is numpy, no need to touch Tensorflow or Theano or PyTorch. But this is a really good example for anyone who want to get in touch with RNN. This implementation is following the idea of [iamtrask's blog](http://iamtrask.github.io/2015/11/15/anyone-can-code-lstm/), but with some modifications to make the computations stable and the code clean.
 
 This RNN is used to deal with a "Binary Addition" problem as showed below:
-<img src="binary_addition.png">
+<p align="center">
+  <img src="https://github.com/rexwangcc/RNN-ToyNet/blob/master/binary_addition.GIF"/>
+</p>
+
+
 
 Below are explanations of the code, also referred from the original blog:
 
